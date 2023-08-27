@@ -1,0 +1,27 @@
+{
+  "name": "activity_worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "pino": "^8.15.0",
+    "uuid": "^9.0.0",
+    "verror": "^1.10.1"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.2",
+    "@types/verror": "^1.10.5",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Reuben Reyes",
+  "license": "MIT"
+}
